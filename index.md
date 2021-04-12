@@ -1,21 +1,25 @@
-
-RECIPE is a dynamic analysis tool for detecting inefficient image displaying issues in Android applications.
-
 ### Introduction
 Android applications (apps for short) often need to display images. However, inefficient image displaying (IID) issues are pervasive in mobile apps, and can severely impact app performance and user experience.
 RECIPE is a dynamic analyses tool for detecting IID issues in Android apps by harnessing the combined power of domain knowledge of IID issues and existing functional test cases. 
 RECIPE reuses and mutates existing functional test cases to construct new test cases that can be used to exposed IID issues. 
 We have applied RECIPE to real-world open-source Android apps, and RECIPE can effectively detect previous unknow IID issues.
 
+### Motivating Example
 
 
-### Data set
+### Approach Framework
 
-#### Functional test cases
 
-#### Generated test cases
+### Approach Evaluation
 
-### Tool
+#### Data set
+
+##### Subjects
+
+##### Functional test cases
+
+##### Results
+
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
