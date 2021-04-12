@@ -11,12 +11,21 @@ We have applied RECIPE to real-world open-source Android apps, and RECIPE can ef
 
 
 ### Approach Evaluation
+We performed an empirical evaluation to investigate the effectiveness of RECIPE on detecting IID issues in real-world Android apps. 
 
 #### Data set
 
 ##### Subjects
+we selected 16 real world open-source Android apps as our evaluation subject.
+Each selected Android app meets the following there selection criteria:
+(1)Open-source: hosted on GitHub with an issue tracking system.
+(2)Under maintenance}: having update operations within the last six months.
+(3)Of realistic usage}: having over 10,000 downloads on the Google play market.
 
 ##### Functional test cases
+For each selected Android app, we downloaded the latest version of it and gave a recruited tester (a post-graduate student whose research field is testing and analysis of Android apps) one hour to familiarize the app and manual construct typical replayable functional test cases.
+The choice of constructing functional test cases manually is build on a fair intuition that humans are good at sketching the major functionalities of an Android app.
+
 
 ##### Results
 
