@@ -1,14 +1,13 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/struggggle/RECIPE/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+RECIPE is a dynamic analysis tool for detecting inefficient image displaying issues in Android applications.
 
 ### Introduction
+Android applications (apps for short) often need to display images. However, inefficient image displaying (IID) issues are pervasive in mobile apps, and can severely impact app performance and user experience.
+RECIPE is a dynamic analyses tool for detecting IID issues in Android apps by harnessing the combined power of domain knowledge of IID issues and existing functional test cases. 
+RECIPE reuses and mutates existing functional test cases to construct new test cases that can be used to exposed IID issues. 
+We have applied RECIPE to real-world open-source Android apps, and RECIPE can effectively detect previous unknow IID issues.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/struggggle/RECIPE/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
 
 ### Data set
 
@@ -19,3 +18,13 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Tool
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/struggggle/RECIPE/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
