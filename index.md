@@ -18,9 +18,9 @@ We performed an empirical evaluation to investigate the effectiveness of RECIPE 
 ##### Subjects
 we selected 16 real world open-source Android apps as our evaluation subject.
 Each selected Android app meets the following there selection criteria:
-(1)Open-source: hosted on GitHub with an issue tracking system.
-(2)Under maintenance}: having update operations within the last six months.
-(3)Of realistic usage}: having over 10,000 downloads on the Google play market.
+- Open-source: hosted on GitHub with an issue tracking system.
+- Under maintenance: having update operations within the last six months.
+- Of realistic usage: having over 10,000 downloads on the Google play market.
 
 ##### Functional test cases
 For each selected Android app, we downloaded the latest version of it and gave a recruited tester (a post-graduate student whose research field is testing and analysis of Android apps) one hour to familiarize the app and manual construct typical replayable functional test cases.
