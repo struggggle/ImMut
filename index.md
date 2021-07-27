@@ -12,7 +12,7 @@ Then, ImMut exploits these mutated and injected events by copy-pasting a repeata
 ## Evaluation
 #### Experimental Setup
 - **Android app subjects.**
-[16 actively maintained apps](https://github.com/anonymouswhom/ImMut/tree/main/Android-app-subjects) being well-verified by an existing static IID issue detector are selected as our evaluation subjects. 
+[16 actively maintained apps](https://github.com/anonymouswhom/ImMut/tree/main/Android-app-subjects) [being](apks.html) well-verified by an existing static IID issue detector are selected as our evaluation subjects. 
 
 - **Injected image resource.**
 [Four images](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources) are prepared and will be injected to validate proper downsampling:
