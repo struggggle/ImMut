@@ -2,16 +2,6 @@
 - **Android app subjects.**
 16 actively maintained apps being well-verified by an existing static IID issue detector are selected as our evaluation subjects, they are:
 
-|	Index	|	Image size	|	Download site	|
-|	------	|	------		|	------		|
-|	1	|	960×800 (0.76MPixels)	|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)	|
-|	2	|	1920×1600 (3.1MPixels)	|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)	|
-|	3	|	2835×2120 (6.0MPixels)	|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)	|
-|	4	|	4032×3016 (12.2MPixels)	|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)	|
-
-
-- **Injected image resource.**
-Four images are prepared and will be injected to validate proper downsampling:
 
 |	Index	|	App name	|	Version		|	Download site	|
 |	------	|	------		|	------		|	------		|
@@ -32,9 +22,18 @@ Four images are prepared and will be injected to validate proper downsampling:
 |	15	|	 Muzei		|	3.4.3		|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)|
 |	16	|	 WordPress	|	16.3		|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)|
 
+- **Injected image resource.**
+Four images are prepared and will be injected to validate proper downsampling:
+
+|	Index	|	Image size	|	Download site	|
+|	------	|	------		|	------		|
+|	1	|	960×800 (0.76MPixels)	|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)	|
+|	2	|	1920×1600 (3.1MPixels)	|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)	|
+|	3	|	2835×2120 (6.0MPixels)	|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)	|
+|	4	|	4032×3016 (12.2MPixels)	|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)	|
+
 - **Functional test cases.**
 51 functional test cases provided by a recruited post-graduate student that can cover major functionalities of the Android app subjects.
-
 
 |	Index	|	App name	|	Functional test cases		|	Download site	|
 |	------	|	------		|	------		|	------		|
