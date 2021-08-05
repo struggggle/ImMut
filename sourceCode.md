@@ -37,9 +37,10 @@ Running ImMut consists of three steps:
      
 `$apkPath` is the path to the folder where apks to be tested are stored.
 `$directoryPath` is the path to the folder where the running results are stored.
-`target_fileName` is the file name of functional test case
-`apkName` is the name of the apk to be tested
-`packageName` is the package name of the apk to be tested
+`target_fileName` is the file name of functional test case.
+`apkName` is the name of the apk to be tested.
+`packageName` is the package name of the apk to be tested.
+
 An example of the `java` commond:
 ```
      java -cp build/classes/java/main:libs/*:build/classes/kotlin/main  edu.nju.ics.alex.inputgenerator.MainKt /testInput/apks/ /testInput addTwoPasses.sh org.ligi.passandroid_356_apps.evozi.com org.ligi.passandroid
