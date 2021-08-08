@@ -1,7 +1,7 @@
 ---
 title: The Usage of ImMut
 ---
-#### The usage of ImMut
+### The usage of ImMut
 
 Requirements for running ImMut:
 * Mac (tested on macOS 10.14), 16 GB memory
