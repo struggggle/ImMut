@@ -1,37 +1,29 @@
-### The source code of ImMut
-The source code of ImMut consists of two parts and you can download them in the following links:
-* (1) hook apps and inject external-source images with large ones: [ImageInjector](https://github.com/struggggle/ImageInjector).
-* (2) copy-past a repeatable fragment and slightly mutate the copies to display many (potentially distinct) images: [InputGenerator](https://github.com/struggggle/InputGenerator).
-
 ### The usage of ImMut
 
-Requirements for building and running ImMut:
+Requirements for running ImMut:
 * Mac (tested on macOS 10.14), 16 GB memory
-* JDK 1.8 and Gradle 7.1.1
+* JDK 1.8 and Android Studio 4.2.2
 
 
-Running ImMut consists of three steps:
-* Step 1: root Android virtual device and install Xposed 
-     * create a virtual device (Nexus 6, 1440*2560, 560dpi, API level 27) and name it Nexus_6_API_27.
-     * root the created virtual device. 
-     * install Xposed in the virtual device.
-* Step 2: create and install an Android apk: used to hook running Android apps (replace image resource and collect execution trace information)
-     * import project "ImageInjector" to Android Studio.
-     * add the package name of the apk you want to test at the end of the local variable "testAppNames".
-     * build the project and generate a signed apk file.  
-     * start the rooted virtual device
-     ```
-     $ $emulatorPath/emulator -avd Nexus_6_API_27 -writable-system
-     ``` 
-     * install the apk file in the Android simulator.
-     * open Xposed and select "ImageInjector" in the "Modules".
+Running ImMut consists of two steps:
+* Step 1: create Android virtual device and install Xposed 
+     * create an Android virtual device (Nexus 6, 1440*2560, 560dpi, API level 27) and name it Nexus_6_API_27.
+     * root the Android virtual device. 
+     * install Xposed in the Android virtual device.
      
-* Step 3: build and run InputGenerator
+     **Note:** we have provided the running environment and you can download the [avd.zip](https://drive.google.com/file/d/1Wa-yXkT80lkrO2HTMOGBUTBp7hujw3fC/view?usp=sharing). Then, you can unzip avd.zip and copy-paste the contants in avd folder to path `~/.android/avd/`
+   
+  
+* Step 2: run ImMut
+     * start Android virtual device
      ```
-     $ git clone https://github.com/struggggle/InputGenerator.git
-     $ cd InputGenerator
-     $ ./gradlew build
-     $ java -cp build/classes/java/main:libs/*:build/classes/kotlin/main  edu.nju.ics.alex.inputgenerator.MainKt $apkPath  $directoryPath $test_case_name $apkName $packageName
+     $ ~/Library/Android/sdk/emulator/emulator -avd Nexus_6_API_27 -writable-system
+     ```
+     * execute ImMut:
+     download and unzip [ImMut.zip](https://drive.google.com/file/d/1ZGSSwGo5PH3iMx-OR__rWKncwLiN1CEq/view?usp=sharing)
+     ```
+     $ cd ImMut
+     $ java -cp edu.nju.ics.alex.inputgenerator.MainKt  inputgenerator.jar:libs/*  $apkPath  $directoryPath $test_case_name $apkName $packageName
      ```
      
 `$apkPath` is the path to the folder where apks to be tested are stored.
@@ -42,8 +34,13 @@ Running ImMut consists of three steps:
 
 An example of the `java` commond:
 ```
-     java -cp build/classes/java/main:libs/*:build/classes/kotlin/main  edu.nju.ics.alex.inputgenerator.MainKt /testInput/apks/ /testInput addTwoPasses.sh org.ligi.passandroid_356_apps.evozi.com org.ligi.passandroid
+     java -cp edu.nju.ics.alex.inputgenerator.MainKt  inputgenerator.jar:libs/*  $savePath/testInput/apks/ /testInput addTwoPasses.sh org.ligi.passandroid_356_apps.evozi.com org.ligi.passandroid
 ```
 
 Results
-* The detection results are in the file directory of `directoryPath`.
+* The detection results are in the file directory of `$directoryPath`.
+
+### The source code of ImMut
+The source code of ImMut consists of two parts and you can download them in the following links:
+* (1) hook apps and inject external-source images with large ones: [ImageInjector](https://github.com/struggggle/ImageInjector).
+* (2) copy-past a repeatable fragment and slightly mutate the copies to display many (potentially distinct) images: [InputGenerator](https://github.com/struggggle/InputGenerator).
