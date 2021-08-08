@@ -1,3 +1,7 @@
+---
+title: Experimental Setup
+---
+
 #### Experimental Setup
 - **Android app subjects.**
 16 actively maintained apps being well-verified by an existing static IID issue detector are selected as our evaluation subjects, they are:

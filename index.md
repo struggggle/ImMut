@@ -5,6 +5,3 @@
     * [Evaluation results](pages/results.html)
 * ImMut
     * [Tool description](pages/run.html)
-* Research artifact
-    * [Requirements](pages/requirements.html)
-    * [Download and install](pages/download-install.html)
