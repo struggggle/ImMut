@@ -42,5 +42,5 @@ Results
 
 ### The source code of ImMut
 The source code of ImMut consists of two parts and you can download them in the following links:
-* (1) hook apps and inject external-source images with large ones: [ImageInjector](pages/sourceCode.html).
-* (2) copy-past a repeatable fragment and slightly mutate the copies to display many (potentially distinct) images: [InputGenerator](pages/sourceCode.html).
+* (1) hook apps and inject external-source images with large ones: [ImageInjector](sourceCode.html).
+* (2) copy-past a repeatable fragment and slightly mutate the copies to display many (potentially distinct) images: [InputGenerator](sourceCode.html).
