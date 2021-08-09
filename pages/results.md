@@ -1,7 +1,7 @@
 ---
 title: Evaluation Results
 ---
-## Evaluation results
+
 ### The IID issues detected by ImMut
 ImMut reported 16 unique IID issues as listed in Table II. We manually confirmed all these reported IID issues as true positives and enclosed these IID issues into 10 bug reports submitted to the corresponding app’s Github issue tracking system. Developers responded to 9/16 IID issues (other issues are still open) by the time this paper was written, and all of them were confirmed as real performance threats. One was already fixed by the developers.
 
