@@ -42,8 +42,3 @@ An example of the `java` commond:
 
 Results
 * The detection results are in the file directory of `$directoryPath`.
-
-### The source code of ImMut
-The source code of ImMut consists of two parts and you can download them in the following links:
-* (1) hook apps and inject external-source images with large ones: [ImageInjector](https://github.com/struggggle/ImageInjector).
-* (2) copy-past a repeatable fragment and slightly mutate the copies to display many (potentially distinct) images: [InputGenerator](https://github.com/struggggle/InputGenerator).
