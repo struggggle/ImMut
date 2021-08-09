@@ -5,25 +5,26 @@ title: Experimental Setup
 ### Android app subjects
 16 actively maintained apps being well-verified by an existing static IID issue detector are selected as our evaluation subjects, they are:
 
+|	Index	|	App name	|	Version|
+|	------ | ------ | ------ |
+|	1	|	 Conversations	|	2.9.6	|
+|	2	|	 Tusky		|	13.1 |
+|	3	|	 Kiss		|	3.15.5 |
+|	4	|	 CycleStreets	|	3.7.2	|
+|	5	|	 Qksms		|	3.8.1	|
+|	6	|	 Easy xkcd	|	7.3.9	|
+|	7	|	 Twidere	|	4.1.6	|
+|	8	|	 Newsblur	|	10.2.0 |
+|	9	|	 Antennapod	|	2.1.2	|
+|	10	|	 MoneyMangerEx	|	3.4	|
+|	11	|	 Slide4Reddit	|	6.6.1	|
+|	12	|	 Passandroid	|	3.5.6	|
+|	13	|	 SlideShow	|	2.9.0	|
+|	14	|	 MTG Family	|	3.6.6	|
+|	15	|	 Muzei		|	3.4.3	|
+|	16	|	 WordPress	|	16.3 |
 
-|	Index	|	App name	|	Version		|	Download site	|
-|	------	|	------		|	------		|	------		|
-|	1	|	 Conversations	|	2.9.6		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/eu.siacs.conversations_402.apk)|
-|	2	|	 Tusky		|	13.1		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/tusky~v13.1.apk)|
-|	3	|	 Kiss		|	3.15.5		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/fr.neamar.kiss_180.apk)|
-|	4	|	 CycleStreets	|	3.7.2		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/net.cyclestreets_1579.apk)|
-|	5	|	 Qksms		|	3.8.1		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/QKSMSv3.8.1.apk)|
-|	6	|	 Easy xkcd	|	7.3.9		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/de.tap.easy_xkcd_166.apk)|
-|	7	|	 Twidere	|	4.1.6		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/twidere~fdroid~release.apk)|
-|	8	|	 Newsblur	|	10.2.0		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/NewsBlur_v10.2.0.apk)|
-|	9	|	 Antennapod	|	2.1.2		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/de.danoeh.antennapod_2010195.apk)|
-|	10	|	 MoneyMangerEx	|	3.4		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/mtgfam_3.6.6.dbg.3.apk)|
-|	11	|	 Slide4Reddit	|	6.6.1		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/slide~for~reddit_6.6.1.apk)|
-|	12	|	 Passandroid	|	3.5.6		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/org.ligi.passandroid_356_apps.evozi.com.apk)|
-|	13	|	 SlideShow	|	2.9.0		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/Slideshow~2.9.0.apk)|
-|	14	|	 MTG Family	|	3.6.6		|	[download site](https://github.com/anonymouswhom/ImMut/tree/main/Inject-image-resources)|
-|	15	|	 Muzei		|	3.4.3		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/net.nurik.roman.muzei_340300.apk)|
-|	16	|	 WordPress	|	16.3		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/wpandroid_16.3_universal.apk)|
+You can download these [Android app subjects](https://drive.google.com/file/d/1zRhCpwURcypI-7UvozBcs67dywsryqHL/view?usp=sharing).
 
 ### Injected image resource
 Four images are prepared and will be injected to validate proper downsampling:
