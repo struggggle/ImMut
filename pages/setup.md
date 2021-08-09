@@ -2,8 +2,7 @@
 title: Experimental Setup
 ---
 
-#### Experimental Setup
-- **Android app subjects.**
+### Android app subjects
 16 actively maintained apps being well-verified by an existing static IID issue detector are selected as our evaluation subjects, they are:
 
 
@@ -26,7 +25,7 @@ title: Experimental Setup
 |	15	|	 Muzei		|	3.4.3		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/net.nurik.roman.muzei_340300.apk)|
 |	16	|	 WordPress	|	16.3		|	[download site](https://github.com/struggggle/ImMut/blob/main/Android-app-subjects/wpandroid_16.3_universal.apk)|
 
-- **Injected image resource.**
+### Injected image resource
 Four images are prepared and will be injected to validate proper downsampling:
 
 |	Index	|	Image size	|	Download site	|
@@ -36,7 +35,7 @@ Four images are prepared and will be injected to validate proper downsampling:
 |	3	|	2835×2120 (6.0MPixels)	|	[download site](https://github.com/struggggle/ImMut/blob/main/Inject-image-resources/2835%E2%80%8A%C3%97%E2%80%8A2120.jpg)	|
 |	4	|	4032×3016 (12.2MPixels)	|	[download site](https://github.com/struggggle/ImMut/blob/main/Inject-image-resources/4032%E2%80%8A%C3%97%E2%80%8A3016.jpg)	|
 
-- **Functional test cases.**
+### Functional test cases
 51 functional test cases provided by a recruited post-graduate student that can cover major functionalities of the Android app subjects.
 
 |	Index	|	App name	|	Functional test cases		|	Download site	|
